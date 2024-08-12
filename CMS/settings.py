@@ -27,7 +27,7 @@ SECRET_KEY = '$5a%%cj78_@&x045mb1bqe1el%$&5bnxd%qi=w*=xqb*txl2u-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', '127.0.0.1','http://fidelityxpress.org/','fidelityxpress.org/']
+ALLOWED_HOSTS = ['*', '127.0.0.1','http://fidelityxpress.org/','fidelityxpress.org/','https://fidelityxpress.onrender.com']
 
 
 # Application definition
