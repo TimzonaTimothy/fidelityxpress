@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '$5a%%cj78_@&x045mb1bqe1el%$&5bnxd%qi=w*=xqb*txl2u-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*', '127.0.0.1','http://fidelityxpress.org/','fidelityxpress.org/','https://fidelityxpress.onrender.com']
 
