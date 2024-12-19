@@ -61,7 +61,7 @@ def listing(request, id=None, m=""):
     if Transaction.objects.get(parcel=listing.id):
         adr = Transaction.objects.get(parcel=listing.id)
 	location = geocoder.osm(address, user_agent="MyDjangoApp/1.0 (admin@example.com)")
-        # location = geocoder.osm(adr.location)
+        
 	    
         lat = location.lat
         lng = location.lng
